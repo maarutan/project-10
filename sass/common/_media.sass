@@ -1,0 +1,33 @@
+
+    
+    
+    
+    
+    
+@media screen and (max-width:760px ) 
+
+    .hamburger
+        // display: block
+        display: inline-flex
+        z-index: 102
+        
+    .nav
+        display: flex
+        justify-content: center
+        position: fixed
+        flex-direction: column
+        top: 0
+        right: 0
+        width: 250px
+        height: 100vh
+        background: rgba(22, 99, 223, 0.8)
+        transition: 1s
+        transform: translateX(100%)
+        z-index: 101
+        
+        &.is-active 
+            transform: translateX(0)
+  
+    
+//nav sone ^
+
