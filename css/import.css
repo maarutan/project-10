@@ -925,8 +925,6 @@ body {
   top: 0;
   background: #fff;
   z-index: 1000;
-  height: 100%;
-  width: 100%;
 }
 
 .logo {
@@ -943,7 +941,6 @@ body {
   line-height: normal;
   text-decoration: none;
   transition: 0.5s;
-  width: 100%;
 }
 .nav-link:hover {
   text-shadow: 1px 1px 1px black;
@@ -953,7 +950,6 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
-  width: 100%;
 }
 
 .df-header {
@@ -962,7 +958,6 @@ body {
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
-  width: 100%;
 }
 
 svg {
@@ -998,13 +993,13 @@ body {
     top: 0;
     z-index: 100000;
   }
+  .pos-svg-slaid {
+    display: none;
+  }
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  .nav {
-    width: 100%;
   }
   .hamburger {
     display: inline-flex;
@@ -1019,13 +1014,16 @@ body {
     right: 0;
     width: 250px;
     height: 100%;
-    background: rgba(22, 99, 223, 0.8);
+    background: rgba(19, 85, 192, 0.729);
     transition: 1s;
     transform: translateX(100%);
     z-index: 101;
   }
   .nav.is-active {
     transform: translateX(0);
+  }
+  .nav-link {
+    color: white;
   }
 }
 .banner {
