@@ -959,6 +959,18 @@ img {
   width: 100%;
 }
 
+.df-botban {
+  padding: 30px;
+}
+
+.block-one-br {
+  padding: 30px;
+}
+
+.tittle-text-new-card {
+  padding: 10px;
+}
+
 @media screen and (max-width: 760px) {
   .hamburger {
     display: inline-flex;
@@ -1492,6 +1504,7 @@ img {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
@@ -1515,6 +1528,7 @@ img {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 
@@ -1540,6 +1554,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 150px;
   padding: 80px;
   position: relative;
@@ -1563,6 +1578,14 @@ img {
   right: 70px;
   top: -70px;
   z-index: -1;
+}
+
+.df-adap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=import.css.map */
